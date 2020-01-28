@@ -1,0 +1,164 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+#portfolio {
+    height: 850px;
+}
+
+#about {
+    height: 600px;
+    background-color: #76CCC6;
+}
+
+#contact {
+    height: 300px;
+    background-color: #2B9992;
+    margin-top: -50px;
+}
+
+footer {
+    height: 100px;
+    background-color: #2B9992;
+    margin-top: -20px;
+    padding-top: 50px;
+}
+
+.full-width {
+    align-content: space-between;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    text-align: center;
+    float: left;
+}
+
+h3 {
+    font-family: "Lobster", sans-serif;
+    font-size: 30pt;
+    text-align: center;
+}
+
+/***** HEADER *****/
+
+#header {
+    height: 800px;
+    background-image: url("../img/hero-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+}
+
+#header h1 {
+    padding-top: 400px;
+    font-family: "Lobster", sans-serif;
+    font-size: 56pt;
+    font-weight: bold;
+    color: #2B9992;
+    text-align: center;
+}
+
+#header h2 {
+    font-size: 30pt;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    color: #878787;
+}
+
+/***** PORTFOLIO SECTION *****/
+
+#portfolio img {
+    padding: 10px 30px 30px 30px;
+}
+
+#portfolio h3 {
+    color: #76CCC6;
+    padding-top: 25px;
+}
+
+#rogue {
+    padding: 110px 0px 140px 100px;
+    margin: auto;
+}
+
+#jubilee {
+    padding: 100px 0px 140px 100px;
+    margin: auto;
+}
+
+/***** ABOUT SECTION *****/
+
+#about h3 {
+    padding-top: 50px;
+    color: #ffffff;
+}
+
+#about img {
+    padding: 0px 100px;
+    border-radius: 100%;
+}
+
+#about p {
+    color: #ffffff;
+}
+
+#about p span {
+    font-weight: bold;
+}
+
+#bio {
+    padding-top: 80px;
+}
+
+/***** CONTACT SECTION *****/
+
+.third-width img {
+    height: 50px;
+    width:50px;
+}
+
+#contact h3 {
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.shift {
+    padding-left: 45px;
+}
+
+#contact h4 {
+    color: #ffffff;
+}
+
+#contact p {
+    color: #ffffff;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/***** FOOTER *****/
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
