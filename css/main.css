@@ -3,7 +3,30 @@
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    color: black;
+    color: #878787;
+}
+
+h3 {
+    font-family: "Lobster", sans-serif;
+    font-size: 30pt;
+    text-align: center;
+}
+
+/***** GRID STYLES *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
 }
 
 #portfolio {
@@ -18,49 +41,41 @@ body {
 #contact {
     height: 300px;
     background-color: #2B9992;
-    margin-top: -50px;
-}
-
-footer {
-    height: 100px;
-    background-color: #2B9992;
-    margin-top: -20px;
-    padding-top: 50px;
-}
-
-.full-width {
-    align-content: space-between;
-}
-
-.half-width {
-    width: 600px;
-    float: left;
-}
-
-.third-width {
-    width: 400px;
-    text-align: center;
-    float: left;
-}
-
-h3 {
-    font-family: "Lobster", sans-serif;
-    font-size: 30pt;
+    padding: 30px 0;
     text-align: center;
 }
 
 /***** HEADER *****/
 
-#header {
-    height: 800px;
-    background-image: url("../img/hero-image.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: -50px;
+header .full-width {
+    padding: 50px 0;
 }
 
-#header h1 {
-    padding-top: 400px;
+header {
+    height: 800px;
+    background: url('../img/hero-image.png');
+    background-size: cover;
+}
+
+nav {
+    float: right;
+    padding: 75px 200px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 80px;
+    color: #878787;
+}
+
+header h1 {
+    padding-top: 250px;
     font-family: "Lobster", sans-serif;
     font-size: 56pt;
     font-weight: bold;
@@ -68,7 +83,7 @@ h3 {
     text-align: center;
 }
 
-#header h2 {
+header h2 {
     font-size: 30pt;
     text-align: center;
     width: 800px;
@@ -123,18 +138,18 @@ h3 {
 
 /***** CONTACT SECTION *****/
 
-.third-width img {
+#contact .third-width {
+    padding-bottom: 20px;
+    align-self: center;
+}
+
+#contact .third-width img {
     height: 50px;
     width:50px;
 }
 
 #contact h3 {
     color: #ffffff;
-    padding-top: 50px;
-}
-
-.shift {
-    padding-left: 45px;
 }
 
 #contact h4 {
@@ -152,13 +167,16 @@ h3 {
 
 /***** FOOTER *****/
 
-footer p {
+.copyright p {
     font-size: 12px;
     text-align: center;
     color: #ffffff;
 }
 
-footer a {
+.copyright a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/***** EDUCATION PAGE *****/
+
