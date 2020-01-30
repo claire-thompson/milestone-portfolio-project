@@ -70,7 +70,7 @@ header .full-width {
 }
 
 header {
-    height: 500px;
+    height: 600px;
     background: url('../img/hero-image.png');
     background-size: cover;
 }
