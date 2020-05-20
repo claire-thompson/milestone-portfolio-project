@@ -6,83 +6,161 @@
         <link href="css/main.css" rel="stylesheet">
         <link href="css/normalize.css" rel="stylesheet">
     </head>
-    <body id="home">
+
+    <body>
+
         <header>
-            <div class="full-width">
+            <div class="content-wrapper">
                 <nav>
                     <ul>
                         <li>
                             <a href="index.html">Home</a>
+                        </li>
+                        <li>
                             <a href="education.html">Education</a>
+                        </li>
+                        <li>
                             <a href="skills.html">Skills</a>
                         </li>
                     </ul>
                 </nav>
-                <h1>Hi, I'm Claire Thompson.</h1>
-                <h2>I am a web developer and creative thinker in Connecticut.</h2>
             </div>
         </header>
+
         <main>
-        <section id="portfolio">
-            <div class="full-width">
-                <h3>My Portfolio</h3>
-                <div class="half-width">
-                    <img src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings Thumbnail">
-                    <img src="img/jubilee-thumbnail.png" alt="Jubilee Austen Thumbnail">
+
+            <section class="hero-area">
+                <div class="content-wrapper">
+                    <h1>Hi, I'm Claire Thompson.</h1>
+                    <h2>I am a web developer and creative thinker.</h2>
                 </div>
-                <div class="half-width">
-                   <div id="rogue">
-                       <h4>Rogue Pickings Website</h4>
-                        <p>HTML & CSS from Photoshop Design Comp</p>
-                        <p>Created from a PSD design comp, this site features a clean layout and custom fonts.</p>
-                    </div>
-                    <div id="jubilee">
-                        <h4>Jubilee Austen Project</h4>
-                        <p>HTML 5 & CSS Website</p>
-                        <p>This single page portfolio website has well-built HTML and CSS.</p>
+            </section>
+
+            <section class="portfolio">
+                <div class="content-wrapper">
+                    <h3>My Portfolio</h3>
+                    <div class="portfolio-items">
+                        <article>
+                            <p class="thumbnail">
+                                <a href="https://claire-thompson.github.io/rogue-pickings/" target="_blank">
+                                    <img src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings Thumbnail">
+                                </a>
+                            </p>
+                            <div class="portfolio-item-description">
+                                <h4>Rogue Pickings Website</h4>
+                                <p>HTML & CSS from Photoshop design comp</p>
+                            </div>
+                          </article>
+                          <article>
+                            <p class="thumbnail">
+                                <a href="https://claire-thompson.github.io/jubilee-austen-site/" target="_blank">
+                                    <img src="img/jubilee-thumbnail.png" alt="Jubilee Austen Thumbnail">
+                                </a>
+                            </p>
+                            <div class="portfolio-item-description">
+                                <h4>Jubilee Austen Personal Website</h4>
+                                <p>HTML & CSS website</p>
+                            </div>
+                          </article>
+                          <article>
+                            <p class="thumbnail">
+                                <a href="https://claire-thompson.github.io/dd-portfolio-site/" target="_blank">
+                                    <img src="img/dorothy-delong-thumbnail.png" alt="Dorothy Delong Thumbnail">
+                                </a>
+                            </p>
+                            <div class="portfolio-item-description">
+                                <h4>Dorothy Delong Portfolio Website</h4>
+                                <p>HTML & CSS website with original design</p>
+                            </div>
+                          </article>
+                          <article>
+                            <p class="thumbnail">
+                                <a href="https://claire-thompson.github.io/unplugged-site/" target="_blank">
+                                    <img src="img/unplugged-thumbnail.png" alt="Unplugged Thumbnail">
+                                </a>
+                            </p>
+                            <div class="portfolio-item-description">
+                                <h4>Unplugged Corporate Website</h4>
+                                <p>HTML & CSS from Photoshop design comp</p>
+                            </div>
+                          </article>
+                          <article>
+                            <p class="thumbnail">
+                                <a href="https://claire-thompson.github.io/election-map/" target="_blank">
+                                    <img src="img/election-map-thumbnail.png" alt="Election Map Thumbnail">
+                                </a>
+                            </p>
+                            <div class="portfolio-item-description">
+                                <h4>Election Map</h4>
+                                <p>Interactive Javascript map</p>
+                            </div>
+                          </article>
+                          <article>
+                            <p class="thumbnail">
+                                <a href="https://claire-thompson.github.io/magic-8ball/" target="_blank">
+                                    <img src="img/magic-8ball-thumbnail.png" alt="Magic 8-Ball Thumbnail">
+                                </a>
+                            </p>
+                            <div class="portfolio-item-description">
+                                <h4>Magic 8-Ball</h4>
+                                <p>Interactive Javascript game</p>
+                            </div>
+                          </article>
+
                     </div>
                 </div>
-            </div>
-        </section>
-        <section id="about">
-            <div class="full-width">
+            </section>
+
+            <section class="about">
                 <h3>About Me</h3>
-                <div class="half-width">
-                    <img src="img/about.png" alt="Claire Thompson Headshot">
-                </div>
-                <div class="half-width">
-                    <div id="bio">
+                <div class="content-wrapper">
+                    <div class="headshot">
+                        <img src="img/about.png" alt="Claire Thompson Headshot">
+                    </div>
+                    <div class="bio">
                         <p><span>I have an eye for design and a passion for usability.</span></p>
-                        <p>Having spent the last four years as a high school English teacher, I know the value of good communication and seek to build websites that speak clearly real people. I am proficient in HTML/CSS and JavaScript with experience using the Bootstrap framework. When not coding, I love to read, dance, watch tv, and play with my two cats. </p>
+                        <p>Having spent the last four years as a high school English teacher, 
+                            I know the value of good communication and seek to build websites 
+                            that speak clearly real people. I am proficient in HTML/CSS, Javascript, and Ruby. 
+                            When not coding, I love to read, dance, watch tv, and play with my two cats. </p>
                         <p>If you have any questions about my work or just want to chat, I'd love to hear from you!</p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <footer id="contact">
-            <div class="full-width">
-                <h3>Let's Connect</h3>
-                    <div class="third-width">
+            </section>
+        </main>
+
+        <footer>
+
+            <div class="content-wrapper">
+
+                <div class="footer-content">
+                    <h3>Let's Connect</h3>
+                    <div class="hire">
                         <h4>Hire Me</h4>
                         <p>(703) 577-7627</p>
                         <a href="mailto:e.claire.thompson@gmail.com">e.claire.thompson@gmail.com</a>
                     </div>
-                    <div class="third-width">
-                        <h4>Follow Me</h4>
-                        <a href="https://github.com/claire-thompson"><img src="img/github.png" alt="Github icon"></a>
-                        <a href="https://www.linkedin.com/in/claireethompson/"><img src="img/linkedin.png" alt="LinkedIn icon"></a>
+                    <h4>Follow Me</h4>
+                    <div class="follow">
+                        <a href="https://github.com/claire-thompson"><img src="img/github.svg" alt="Github icon"></a>
+                        <a href="https://www.instagram.com/poeticretellings/"><img src="img/instagram.svg" alt="Instagram icon"></a>
+                        <a href="https://www.linkedin.com/in/claireethompson/"><img src="img/linkedin.svg" alt="LinkedIn icon"></a>
+                        <a href=""></a>
                     </div>
-                    <div class="third-width">
-                        <h4>Meet Me</h4>
+                    <h4>Meet Me</h4>
+                    <div class="meet">
                         <p>Norwalk, CT</p>
                         <p>Let's go to meetups together!</p>
                     </div>
                 </div>
-            <div class="full-width copyright">
-                <p>Copyright 2020 | Claire Thompson</p>
-                <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+
+                <div class="copyright">
+                    <p>Copyright 2020 | Claire Thompson</p>
+                    <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                </div>
+
             </div>
         </footer>
-    </main>
+
     </body>
 </html>
