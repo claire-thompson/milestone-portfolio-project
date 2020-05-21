@@ -101,7 +101,7 @@
 /***** BASE STYLES *****/
 
 html {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 body {
@@ -109,6 +109,9 @@ body {
     font-size: 1em;
     color: #878787;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 ul,
@@ -143,10 +146,6 @@ p {
     line-height: 1.5em;
 }
 
-.content-wrapper {
-    width: 90%;
-}
-
 a {
     text-decoration: none;
     color: #ffffff;
@@ -168,15 +167,13 @@ header {
 }
 
 header .content-wrapper {
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 0;
-  }
+    justify-content: center;
+}
 
 header nav {
-    width: 40%;
+    width: 70%;
 }
     
 header nav ul {
@@ -241,12 +238,12 @@ footer .social-icons {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 40%;
+    width: 70%;
     margin-bottom: 50px;
 }
 
 .follow img {
-    width: 50%;
+    width: 55%;
 }
 
 footer .meet {
@@ -278,7 +275,7 @@ footer .meet {
     flex-flow: row wrap;
     background-image: url('../img/hero-image.png');
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     height: 500px;
   }
@@ -289,7 +286,7 @@ footer .meet {
 
 .hero-area h1 {
     text-align: center;
-    margin: 280px 0 0 0;
+    margin: 200px 0 0 0;
 }
 
 .hero-area h2 {
@@ -319,6 +316,7 @@ footer .meet {
 
   .portfolio img {
       margin: 30px 0px 15px 0px;
+      width: 90%;
   }
 
   .portfolio-item-description {
@@ -345,12 +343,13 @@ footer .meet {
     align-items: center;
     flex-flow: column;
     background-color: #2B9992;
-    height: 550px;
+    height: 700px;
+    padding: 50px 0 30px 0;
   }
 
 .about .content-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
@@ -359,9 +358,17 @@ footer .meet {
     color: #ffffff;
 }
 
+.headshot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
 .headshot img {
     border-radius: 100%;
-    width: 90%;
+    width: 50%;
 }
 
 .about p {
@@ -373,7 +380,7 @@ footer .meet {
 }
 
 .bio {
-    width: 50%;
+    width: 80%;
 }
 
 /***** EDUCATION PAGE *****/
@@ -422,10 +429,9 @@ footer .meet {
 
 /***** SKILLS PAGE *****/
 
-#skills main {
+#skills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -434,15 +440,20 @@ footer .meet {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px 0;
+    margin: 50px 0 0 0;
 }
 
 #skills .content-wrapper {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    margin: 50px 0 0 0;
+}
+
+#skills h3 {
+    margin: 0;
 }
 
 #skills article {
@@ -450,11 +461,12 @@ footer .meet {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 0 30px 0;
 }
 
 #skills img {
-    width: 80%;
-    margin-bottom: 30px;
+    width: 40%;
+    margin-bottom: 20px;
 }
 
 #skills h3 {
@@ -465,8 +477,13 @@ footer .meet {
 #skills h4 {
     text-align: center;
     font-family: "Roboto", sans-serif;
-    font-size: 2em;
+    font-size: 1.25em;
     color: #878787;
+}
+
+#skills .divider {
+    margin: 0;
+    width: 90%;
 }
 
 /* ==========================================================================
