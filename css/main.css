@@ -246,10 +246,6 @@ footer .social-icons {
     width: 55%;
 }
 
-footer .meet {
-    margin-bottom: 50px;
-}
-
 .copyright {
     margin-bottom: 20px;
 }
@@ -343,7 +339,6 @@ footer .meet {
     align-items: center;
     flex-flow: column;
     background-color: #2B9992;
-    height: 700px;
     padding: 50px 0 30px 0;
   }
 
@@ -373,6 +368,7 @@ footer .meet {
 
 .about p {
     color: #ffffff;
+    margin: 0 0 20px 0;
 }
 
 .about p span {
@@ -381,6 +377,7 @@ footer .meet {
 
 .bio {
     width: 80%;
+    margin: 20px 0 0 0;
 }
 
 /***** EDUCATION PAGE *****/
@@ -579,6 +576,45 @@ footer .meet {
 
 @media screen and (min-width: 768px) {
 
+    /* Header Styles */
+
+    header .content-wrapper {
+        width: 90%;
+        justify-content: flex-end;
+    }
+
+    header nav {
+        width: 40%;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    /* About Styles */
+
+    .about .content-wrapper {
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .headshot img {
+        border-radius: 100%;
+        width: 75%;
+    }
+
+    .bio {
+        padding-right: 30px;
+    }
+
+    /* Skills Styles */
+
+    #skills article {
+        width: 50%;
+    }
+    
+    /* Footer Styles */
+
     footer .footer-content {
         flex-flow: wrap;
     }
@@ -590,6 +626,14 @@ footer .meet {
     footer .social-icons {
         width: 100%;
     }
+
+    .social-icons img {
+        width: 40%;
+    }
+
+    #education footer img {
+        width: 40%;
+    }    
 
 }
   
