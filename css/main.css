@@ -630,6 +630,7 @@ footer .social-icons {
     footer .footer-content {
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-start;
     }
 
     .footer-content section {
