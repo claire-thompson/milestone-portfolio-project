@@ -180,7 +180,7 @@ header nav {
     
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     padding: 0;
 }
